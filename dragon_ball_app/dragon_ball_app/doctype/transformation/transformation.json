@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "creation": "2025-08-31 12:23:42.263313",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "transformation_id",
+  "transformation_name",
+  "column_break_bqst",
+  "image",
+  "ki"
+ ],
+ "fields": [
+  {
+   "fieldname": "transformation_id",
+   "fieldtype": "Data",
+   "label": "Transformation ID"
+  },
+  {
+   "fieldname": "transformation_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Transformation Name"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Image"
+  },
+  {
+   "fieldname": "ki",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Ki"
+  },
+  {
+   "fieldname": "column_break_bqst",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-08-31 23:18:16.798753",
+ "modified_by": "Administrator",
+ "module": "Dragon Ball App",
+ "name": "Transformation",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "autoincrement",
+ "creation": "2025-08-30 18:32:34.281508",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "character_id",
+  "character_name",
+  "race",
+  "gender",
+  "column_break_hjas",
+  "ki",
+  "max_ki",
+  "description",
+  "image_url",
+  "transformations"
+ ],
+ "fields": [
+  {
+   "fieldname": "character_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Character ID",
+   "unique": 1
+  },
+  {
+   "fieldname": "character_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Character Name"
+  },
+  {
+   "fieldname": "ki",
+   "fieldtype": "Data",
+   "label": "Ki"
+  },
+  {
+   "fieldname": "column_break_hjas",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "max_ki",
+   "fieldtype": "Data",
+   "label": "Max Ki"
+  },
+  {
+   "fieldname": "race",
+   "fieldtype": "Data",
+   "label": "Race"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "Female\nMale\nOther"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "image_url",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Image Url"
+  },
+  {
+   "fieldname": "transformations",
+   "fieldtype": "Table",
+   "label": "Transformations",
+   "options": "Transformation"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-09-01 00:40:58.500597",
+ "modified_by": "Administrator",
+ "module": "Dragon Ball App",
+ "name": "Dragon Ball Character",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "character_name",
+ "track_changes": 1
+}
